@@ -1,0 +1,87 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+	<title>Overview</title>
+	<meta name="generator" content="BBEdit 6.0">
+</head>
+<body bgcolor="white">
+
+
+<p><b><font face="Tahoma" color="#00009C">Matching the CyUsb.sys Driver to USB 
+Devices</font></b></p>
+<p><font face="Tahoma" size="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Force WindowsXP 
+to use the CYUSB.SYS driver with the device.</font></p>
+<ul>
+    <p align="left"><font face="Tahoma" size="2">Connect the device to the PC</font></p>
+    <p align="left"><font face="Tahoma" size="2">If Windows prompts for a driver 
+    or indicates that it needs a driver</font></p>
+    <ul>
+	<p align="left"><font face="Tahoma" size="2">Select <b>No, not this time</b></font></p>
+	<p align="left"><font face="Tahoma" size="2">Click <b>Next</b></font></p>
+	<p align="left"><font face="Tahoma" size="2">Select<b> Install from 
+        a list or specific location (Advanced)</b></font></p>
+	<p align="left"><font face="Tahoma" size="2">Check the box <b>Include this location in the search</b></font></p>
+        <p align="left"><font face="Tahoma" size="2">Click <b>Browse</b></font></p>
+        <p align="left"><font face="Tahoma" size="2">Navigate to the directory 
+        containing CYUSB.SYS</font></p>
+        <p align="left"><font face="Tahoma" size="2">CYUSB.INF should be automatically 
+        placed in the File name field</font></p>
+	<p align="left"><font face="Tahoma" size="2">Click <b>OK</b></font></p>
+        <p align="left"><font face="Tahoma" size="2">Click <b>Next</b></font></p>
+        <p align="left"><font face="Tahoma" size="2">Click <b>Finish</b></font></p>
+        <p align="left"><font face="Tahoma" size="2">Click<b> Close</b></font></p>
+    </ul>
+    <p align="left"><font face="Tahoma" size="2">If Windows does not prompt 
+    for a driver, it has already matched the device to a driver itself. &nbsp;In 
+    this case, you will need to see if the CYUSB.SYS driver was selected and, 
+    if not,  manually instruct Windows to use that 
+    driver.</font></p>
+    <ul>
+        <p align="left"><font face="Tahoma" size="2">Right-click <b>My Computer</b> 
+        and select the <b>Manage</b> menu item.</font></p>
+        <p align="left"><font face="Tahoma" size="2">In the <b>Computer Management</b> 
+        window, select <b>Device Manager</b></font></p>
+        <p align="left"><font face="Tahoma" size="2">In the right window pane, 
+        click the + icon next to <b>Universal Serial Bus controllers</b></font></p>
+        <p align="left"><font face="Tahoma" size="2">Locate your device in the 
+        list and double click on it</font></p>
+        <p align="left"><font face="Tahoma" size="2">Select the <b>Driver</b> 
+        tab in the Properties dialog that comes up</font></p>
+        <p align="left"><font face="Tahoma" size="2">Click on the <b>Driver 
+        Details</b> button.</font></p>
+        <p align="left"><font face="Tahoma" size="2"><i>If the displayed driver 
+        file is CYUSB.SYS, Windows has already matched the device to this driver 
+        and you should click <b>OK</b> and <b>Cancel</b>. &nbsp;&nbsp;&nbsp;If 
+        not, proceed with the remaining steps.</i></font></p>
+        <p align="left"><font face="Tahoma" size="2">Click <b>OK</b></font></p>
+        <p align="left"><font face="Tahoma" size="2">Click<b> Update Driver</b></font></p>
+	<p align="left"><font face="Tahoma" size="2">Select <b>No, not this time</b></font></p>
+	<p align="left"><font face="Tahoma" size="2">Click <b>Next</b></font></p>
+        <p align="left"><font face="Tahoma" size="2">Select<b> Install from 
+        a list or specific location (Advanced)</b></font></p>
+        <p align="left"><font face="Tahoma" size="2">Click <b>Next</b></font></p>
+        <p align="left"><font face="Tahoma" size="2">Select <b>Don't search. 
+        &nbsp;I will choose the driver to install.</b></font></p>
+        <p align="left"><font face="Tahoma" size="2">Click <b>Next</b></font></p>
+        <p align="left"><font face="Tahoma" size="2">Click <b>Have Disk</b></font></p>
+        <p align="left"><font face="Tahoma" size="2">Click <b>Browse</b></font></p>
+        <p align="left"><font face="Tahoma" size="2">Navigate to the directory 
+        containing CYUSB.SYS</font></p>
+        <p align="left"><font face="Tahoma" size="2">CYUSB.INF should be automatically 
+        placed in the File name field</font></p>
+        <p align="left"><font face="Tahoma" size="2">Click <b>Open</b></font></p>
+        <p align="left"><font face="Tahoma" size="2">Click <b>OK</b></font></p>
+        <p align="left"><font face="Tahoma" size="2">Click <b>Next</b></font></p>
+        <p align="left"><font face="Tahoma" size="2">Click <b>Finish</b></font></p>
+        <p align="left"><font face="Tahoma" size="2">Click<b> Close</b></font></p>
+        <p align="left"><font face="Tahoma" size="2">Don't re-boot your system 
+        if Windows suggests that you must. &nbsp;You may need to unplug and 
+        re-plug your device, however.</font></p>
+    </ul>
+    <p align="left"><font face="Tahoma" size="2">&nbsp;</font></p>
+</ul>
+</font>
+</body>
+</html>

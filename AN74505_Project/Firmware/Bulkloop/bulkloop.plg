@@ -1,0 +1,55 @@
+Build target 'Target 1'
+compiling fw.c...
+compiling bulkloop.c...
+assembling dscr.a51...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LED_OFF?BULKLOOP
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LED_ON?BULKLOOP
+
+creating hex file from "bulkloop"...
+User command #1: c:\cypress\usb\bin\hex2bix -i -f 0xC2 -o bulkloop.iic bulkloop.hex--- Error: can't execute '"C:\Keil\uv2\KSPAWN.EXE" c:\cypress\usb\bin\hex2bix -i -f 0xC2 -o bulkloop.iic bulkloop.hex'
+"bulkloop" - 1 Error(s), 2 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LED_OFF?BULKLOOP
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LED_ON?BULKLOOP
+
+creating hex file from "bulkloop"...
+User command #1: C:\Cypress\Cypress Suite USB 3.4.7\Firmware\bin\hex2bix -i -f 0xC2 -o bulkloop.iic bulkloop.hex--- Error: can't execute '"C:\Keil\uv2\KSPAWN.EXE" C:\Cypress\Cypress Suite USB 3.4.7\Firmware\bin\hex2bix -i -f 0xC2 -o bulkloop.iic bulkloop.hex'
+"bulkloop" - 1 Error(s), 2 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LED_OFF?BULKLOOP
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LED_ON?BULKLOOP
+
+creating hex file from "bulkloop"...
+User command #1: "C:\Cypress\Cypress Suite USB 3.4.7\Firmware\bin\Hex2bix.exe" -i -f 0xC2 -o bulkloop.iic bulkloop.hexIntel Hex file to EZ-USB Binary file conversion utility
+Copyright (c) 1997-2005, Cypress Semiconductor Inc.
+2741 Bytes written.
+Total Code Bytes = 2700
+Conversion completed successfully.
+"bulkloop" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LED_OFF?BULKLOOP
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LED_ON?BULKLOOP
+
+creating hex file from "bulkloop"...
+User command #1: "C:\Cypress\Cypress Suite USB 3.4.7\Firmware\bin\Hex2bix.exe" -i -f 0xC2 -o bulkloop.iic bulkloop.hexIntel Hex file to EZ-USB Binary file conversion utility
+Copyright (c) 1997-2005, Cypress Semiconductor Inc.
+2741 Bytes written.
+Total Code Bytes = 2700
+Conversion completed successfully.
+"bulkloop" - 0 Error(s), 2 Warning(s).
