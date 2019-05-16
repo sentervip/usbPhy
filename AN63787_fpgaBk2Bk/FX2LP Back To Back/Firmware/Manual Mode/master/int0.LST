@@ -1,0 +1,42 @@
+C51 COMPILER V7.06   INT0                                                                  10/16/2013 16:15:40 PAGE 1   
+
+
+C51 COMPILER V7.06, COMPILATION OF MODULE INT0
+OBJECT MODULE PLACED IN int0.OBJ
+COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.EXE int0.c BROWSE INCDIR(..\inc\) DEBUG OBJECTEXTEND
+
+stmt level    source
+
+   1          //-----------------------------------------------------------------------------
+   2          //  File:    int0.c
+   3          //  Contents:  ISR for INT0# pin, used by peripheral to issue ZERO LENGTH PACKET
+   4          //  Copyright (c) 2001 Cypress Semiconductor All rights reserved
+   5          //-----------------------------------------------------------------------------
+   6          #include "fx2.h"
+   7          #include "fx2regs.h"
+   8          
+   9          extern BOOL zerolenpkt;
+  10          
+  11          void int0( void ) interrupt 0
+  12          { // processor vectors here when peripheral asserts zerolenpkt
+  13   1        zerolenpkt = 1;
+  14   1        EX0 = 0;                      // disable INT0# pin ISR
+  15   1      
+  16   1        // foreground clears this flag and (re)enables ISR...
+  17   1        // ...an idle system will service this event in ~8usec
+  18   1        // ...a busy system could take ~80usec or so...
+  19   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =      5    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

@@ -1,0 +1,17 @@
+Build target 'Target 1'
+compiling FW.C...
+assembling FW.src...
+
+A51 MACRO ASSEMBLER V6.12 - SN: Eval Version
+COPYRIGHT KEIL ELEKTRONIK GmbH 1987 - 2001
+"C:\Keil\C51\BIN\A51.EXE" "FW.src" PR(.\FW.ls1) EP DEBUG
+
+A51 FATAL ERROR -
+  FILE:       FW.src
+  ERROR:      FILE DOES NOT EXIST
+A51 TERMINATED.
+
+assembling DSCR.A51...
+compiling slave.c...
+.\SLAVE.C(97): warning C206: 'EZUSB_INITI2C': missing function-prototype
+Target not created
